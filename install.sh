@@ -26,6 +26,8 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 		sudo apt-get update
 
 		sudo apt-get upgrade -y
+		
+		sudo apt-get install -y apt
 
 		sudo apt dist-upgrade -y
 
@@ -40,6 +42,8 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 		apt-get update
 
 		apt-get upgrade -y
+		
+		apt-get install -y apt
 
 		apt dist-upgrade -y
 
