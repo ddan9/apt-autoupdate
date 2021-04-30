@@ -29,7 +29,7 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 
 		sudo apt dist-upgrade -y
 
-		sudo cp $HOME/iwcheck/apt-autoupdate /usr/sbin/apt-autoupdate
+		sudo cp $HOME/apt-autoupdate/apt-autoupdate /usr/sbin/apt-autoupdate
 
 		sudo chmod +x /usr/sbin/apt-autoupdate
 
