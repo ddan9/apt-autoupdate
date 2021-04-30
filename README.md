@@ -134,7 +134,7 @@
 
 #### Authors
 
-Creator of apt: http:// 👈
+Creators of apt package manager: https://debian.org 👈
 
 Creator of script: https://ddan9.github.io 👈
 
