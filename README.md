@@ -91,7 +91,7 @@
 >
 > 3. bash apt-autoupdate/install.sh
 >
-> 4. iwcheck
+> 4. apt-autoupdate
 >
 > ***Or by one command:***
 >
