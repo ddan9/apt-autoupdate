@@ -41,7 +41,7 @@
 
 #### apt-autoupdate (en)
 
-!!! apt-autoupdate
+A program based on the apt and apt-get commands. Designed to keep the system up to date. Made just for convenience. It is not recommended for use by system administrators in a production environment, because the probability of system failure increases. In general, at home too
 
 [🔙 Menu](#Menu)
 
