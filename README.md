@@ -7,6 +7,8 @@
       |_|                                       |_|            
 ```
 
+![Alt Text](apt-autoupdate.gif)
+
 ### Language translations
 
 - [🇺🇸 Description in English](#Description-in-English)
