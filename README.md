@@ -7,7 +7,7 @@
       |_|                                       |_|            
 ```
 
-![Alt Text](apt-autoupdate.gif)
+![ < apt-autoupdate example > ](apt-autoupdate.gif)
 
 ### Language translations
 
