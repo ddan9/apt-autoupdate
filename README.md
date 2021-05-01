@@ -7,7 +7,7 @@
       |_|                                       |_|            
 ```
 
-![ < apt-autoupdate example > ](apt-autoupdate.gif)
+![ < apt-autoupdate example of work > ](apt-autoupdate.gif)
 
 ### Language translations
 
