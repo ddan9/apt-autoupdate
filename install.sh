@@ -16,7 +16,7 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 
 	then
 
-		sudo apt install -y sudo
+		sudo apt-get install -y sudo
 
 		sudo apt-get update
 
@@ -24,7 +24,7 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 		
 		sudo apt-get install -y apt
 
-		sudo apt dist-upgrade -y
+		sudo apt-get dist-upgrade -y
 
 		sudo cp $HOME/apt-autoupdate/apt-autoupdate /usr/sbin/apt-autoupdate
 
@@ -40,7 +40,7 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 		
 		apt-get install -y apt
 
-		apt dist-upgrade -y
+		apt-get dist-upgrade -y
 
 		cp $HOME/apt-autoupdate/apt-autoupdate $HOME/../usr/bin/apt-autoupdate
 
