@@ -9,6 +9,10 @@
 
 ![ < apt-autoupdate example of work > ](apt-autoupdate.gif)
 
+<kbd>
+  <img src="./apt-autoupdate.gif">
+</kbd>
+
 ### Language translations
 
 - [🇺🇸 Description in English](#Description-in-English)
