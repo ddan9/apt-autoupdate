@@ -1,5 +1,7 @@
 #!/bin/bash
 
+use_prelink="0" # this is secret feature; you can activate this if use use prelink; statements: 0/1
+
 if [[ $(which sudo | grep -c sudo) = "1" ]]
 
 	then
@@ -49,5 +51,27 @@ if [[ $(which sudo | grep -c sudo) = "1" ]]
 		apt autoclean
 
 		apt clean
+
+fi
+
+if [[ $use_prelink = "1" ]]
+
+	then
+
+		if [[ $(which sudo | grep -c sudo) = "1" ]]
+
+			then
+
+				sudo prelink -a --all -f --force -m --conserve-memory -R --random -v --verbose
+
+			else
+
+				prelink -a --all -f --force -m --conserve-memory -R --random -v --verbose
+
+		fi
+
+	else
+
+		sleep 0
 
 fi
